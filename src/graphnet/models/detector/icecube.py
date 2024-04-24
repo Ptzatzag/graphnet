@@ -86,7 +86,7 @@ class IceCubeDeepCore(IceCube86):
             "charge": self._identity,
             "rde": self._rde,
             "pmt_area": self._pmt_area,
-            "hlc": self._identity,
+            #"hlc": self._identity,
         }
         return feature_map
 
