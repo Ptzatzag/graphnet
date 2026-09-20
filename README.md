@@ -1,3 +1,24 @@
+## MSc Thesis Work
+
+This fork was used for my MSc thesis research at the University of Copenhagen using the GraphNeT framework and IceCube detector data.
+
+My thesis-specific code is contained in:
+
+`ThesisWorkspace/`
+
+The work includes:
+
+* preprocessing and validation of high-dimensional detector data
+* deep-learning model training with PyTorch / PyTorch Lightning
+* position and angular reconstruction tasks
+* event classification
+* comparison of simulated and real detector signals
+* model evaluation and diagnostic analysis
+
+For details, see the [ThesisWorkspace README](ThesisWorkspace/README.md).
+
+> GraphNeT itself is developed by the GraphNeT collaboration. The `ThesisWorkspace` directory contains the work specific to my MSc research.
+
 <center>
 
 ![logo](./assets/identity/graphnet-logo-and-wordmark.png)
