@@ -1,0 +1,27 @@
+# Local credentials must never be published.
+token.txt
+*token*.txt
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local datasets, event selections, predictions, and training artifacts.
+data/
+outputs/
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+wandb/
+lightning_logs/
+logs/
+checkpoints/
+__pycache__/
