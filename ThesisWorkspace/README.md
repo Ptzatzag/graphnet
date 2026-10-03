@@ -48,11 +48,11 @@ script names do not always match the implemented task:
 | Script | Implemented task |
 | --- | --- |
 | `RegressionModels/Position_Reco/position.py` | Position reconstruction |
-| `RegressionModels/Energy_Reco/energy.py` | Position reconstruction (duplicate template) |
-| `RegressionModels/Zenith_Reco/zenith.py` | Zenith reconstruction using DeepCore features |
-| `RegressionModels/Azimuth_Reco/azimuth.py` | Zenith reconstruction (duplicate template) |
-| `StoppedThroughClassifier/StoppedThrough.py` | Stopped-muon classification |
-| `RealVsSim/RealVsSim.py` | Stopped-muon classification (duplicate template) |
+| `RegressionModels/Energy_Reco/energy.py` | Energy reconstruction |
+| `RegressionModels/Zenith_Reco/zenith.py` | Zenith reconstruction |
+| `RegressionModels/Azimuth_Reco/azimuth.py` | Azimuth reconstruction  |
+| `StoppedThroughClassifier/StoppedThrough.py` | Stopped-Through muon classification |
+| `RealVsSim/RealVsSim.py` | Real-Simulated classification |
 
 Paths in this table are relative to `training_models/MuonAnalysis/`. The angle
 scripts were configured for neutrino selections despite their directory name.
